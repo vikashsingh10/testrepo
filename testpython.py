@@ -19,16 +19,11 @@ for x in range(1,51):
         image=y["src"]
         a="https://books.toscrape.com/"
         b=str(image)[9:]
-        c=a+b
-        # print(c)
-        # url=c
-        # print(url)
-        # print(title)
-     
+        c=a+b   
         '''with open(title.replace("/","-") + ".jpg","wb") as f:
           im=requests.get(c)
           f.write(im.content)'''
         print("writing : " + title)
         store.append(c)
-# store
+len(store)
 print("Completed")
